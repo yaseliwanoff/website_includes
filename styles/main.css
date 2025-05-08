@@ -1,0 +1,51 @@
+/* Базовые стили */
+@import url("./reset.css");
+@import url("../assets/fonts/fonts.css");
+@import url("./adaptives.css");
+@import url("./layout.css");
+
+/* Стили секций */
+@import url("../sections/header.css");
+@import url("../sections/hero.css");
+@import url("../sections/brands.css");
+@import url("../sections/best.css");
+@import url("../sections/reviews.css");
+@import url("../sections/offers.css");
+@import url("../sections/tools.css");
+@import url("../sections/sales.css");
+
+:root {
+    /* Цвета для текста */
+    --text-gray: #858489;
+    --text-white: #FFFFFF;
+    --text-dark-white: #F4F5F6;
+    --text-black: #000000;
+    --text-blue: #2449FF;
+
+    /* Цветовые переменные */
+    --background-white: #FFFFFF;
+    --background-black: #000000;
+    --background-gray: #18181B;
+    --background-purple: #2449FF;
+
+    /* Переменные для адаптивности */
+    --breakpoint-mobile: 292px;
+    --breakpoint-tablet: 768px;
+    --breakpoint-desktop: 1813px;
+
+    --container-padding: 20px;
+
+    /* Типографика */
+    --text-size-large: 117px;
+    --text-size-medium: 112px;
+    --text-size-low: 80px;
+    --text-description: 26px;
+    --text-button: 32px;
+
+    --block-border-radius: 80px;
+
+    /* Переменные для эффектов и состояний */
+    --transition-fast: 0.1s ease-in-out;
+    --transition-medium: 0.3s ease-in-out;
+    --transition-slow: 0.5s ease-in-out;
+}
