@@ -11,9 +11,6 @@
 html, body {
     font-family: "Inter";
     font-weight: 400;
-}
-
-body {
     background-color: var(--background-black);
     color: var(--text-white);
 }
