@@ -1,0 +1,42 @@
+.brands {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 190px;
+}
+
+.brands h2 {
+    font-size: var(--text-size-medium);
+    font-weight: 600;
+    color: var(--text-white);
+    letter-spacing: -3px;
+    z-index: 10;
+    margin-bottom: 39px;
+}
+
+.brands__logo-background {
+    z-index: 0;
+    position: relative;
+}
+
+.brands__logo-image {
+    padding-top: 130px;
+    z-index: 10;
+    position: absolute;
+    left: 0;
+    display: flex;
+}
+
+.btn-more {
+    z-index: 20;
+    background-color: var(--background-blue);
+    padding: 18px 23px;
+    font-size: var(--text-button);
+    border-radius: 18px;
+    transition: var(--transition-fast);
+}
+
+.btn-more:hover {
+    background-color: var(--background-white);
+    color: var(--text-black);
+}
