@@ -1,0 +1,88 @@
+.tools {
+    margin-bottom: 100px;
+}
+
+.tools__text {
+    display: flex;
+    float: right;
+    width: 780px;
+    font-size: var(--text-size-medium);
+    font-weight: 700;
+    letter-spacing: -4.27;
+    line-height: 117px;
+}
+
+.tools {
+    position: relative;
+}
+
+.tools__background .tools__messages {
+    font-size: 26px;
+    line-height: 36px;
+}
+
+.tools__background img {
+    margin-top: 5%;
+    position: absolute;
+}
+
+.tools__messages .fide {
+    width: 80px;
+    left: 35%;
+    position: absolute;
+    z-index: 20;
+    top: 250px;
+}
+
+.tools__messages .deeplink {
+    position: absolute;
+    left: 14%;
+    top: 400px;
+}
+
+.tools__messages .otchet {
+    width: 113px;
+    position: absolute;
+    top: 595px;
+    left: 10%;
+}
+
+.tools__messages .dsp {
+    position: absolute;
+    top: 570px;
+    z-index: 20;
+    left: 37%;
+}
+
+.tools__messages .system {
+    top: 700px;
+    left: 40%;
+    position: absolute;
+    width: 157px;
+}
+
+.tools__messages .clever {
+    position: absolute;
+    top: 450px;
+    left: 62%;
+    z-index: 20;
+}
+
+.tools__messages .fide2 {
+    position: absolute;
+    top: 720px;
+    left: 66%;
+}
+
+.tools__messages .api {
+    position: absolute;
+    width: 106px;
+    top: 840px;
+    left: 70%;
+}
+
+.reg {
+    position: absolute;
+    top: 900px;
+    left: 20%;
+}
