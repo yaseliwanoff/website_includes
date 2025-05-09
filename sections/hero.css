@@ -1,5 +1,6 @@
 .hero {
     position: relative;
+    margin-bottom: 195px;
 }
 
 .hero__top {
@@ -32,7 +33,7 @@
 }
 
 .hero__bottom {
-    margin-top: 160px;
+    margin-top: 150px;
     display: flex;
     justify-content: space-between;
 }
