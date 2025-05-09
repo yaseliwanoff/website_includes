@@ -1,0 +1,160 @@
+.offers {
+    margin-bottom: 100px;
+}
+
+.offers__text h2 {
+    font-size: var(--text-size-medium);
+    font-weight: 700;
+    line-height: 123px;
+    letter-spacing: -4.48px;
+    color: #393B43;
+}
+
+.offers__text h2 .text-light {
+    color: var(--text-white);
+}
+
+.offers__text h2 .text-blue {
+    cursor: pointer;
+    color: var(--text-blue);
+    border-bottom: 1px solid #393B43;
+    transition: var(--transition-fast);
+}
+
+.offers__text h2 .text-blue:hover {
+    color: var(--text-white);
+}
+
+.offers__blocks {
+    margin-top: 61px;
+}
+
+.offer__block {
+    position: relative;
+    overflow: hidden;
+    width: 377px;
+    height: 432px;
+    padding: 21px;
+    border-radius: 20px;
+    background-color: #18181B;
+    background-image: url("../assets/images/png/cardOvelay.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.offer__block .wrap {
+    position: relative;
+    z-index: 10;
+    height: 100%;
+}
+
+.offer__block .light {
+    z-index: 0;
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.272);
+    border-radius: 999px;
+    width: 250px;
+    filter: blur(120px);
+    height: 250px;
+    transition: var(--transition-slow);
+}
+
+.offer__block .black {
+    z-index: 0;
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    bottom: 0;
+    opacity: 0;
+    background-color: rgb(0, 0, 0);
+    border-radius: 999px;
+    width: 250px;
+    filter: blur(100px);
+    height: 250px;
+    transition: var(--transition-slow);
+}
+
+.offer__block:hover .light {
+    top: 190px;
+}
+
+.offer__block:hover .black {
+    opacity: 100%;
+    top: -130px;
+}
+
+.offer__block-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 0px 50px;
+}
+
+.btn-connect {
+    cursor: pointer;
+    background-color: var(--background-blue);
+    border-radius: 18px;
+    padding: 13px 4px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: var(--transition-fast);
+}
+
+.btn-moree {
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    transition: var(--transition-fast);
+}
+
+.btn-moree:hover {
+    color: var(--text-gray);
+}
+
+.offer__buttons {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    gap: 29px;
+}
+
+.btn-connect:hover {
+    background-color: var(--background-white);
+    color: var(--text-black);
+}
+
+.offer__block .wrap h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 35px;
+}
+
+.offer__block-grid div {
+    margin-top: 21px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.offer__block-grid div .message {
+    color: var(--text-gray);
+    font-size: 18px;
+}
+
+.offer__block-grid div .numbers {
+    font-size: 16px;
+}
+
+.offers__blocks {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+.position {
+    display: flex;
+    margin: 0 auto;
+}
