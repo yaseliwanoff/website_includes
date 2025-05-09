@@ -1,0 +1,79 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.footer .footer__logo {
+    margin-bottom: 51px;
+}
+
+.footer nav {
+    margin-bottom: 53px;
+}
+
+.footer nav ul {
+    display: flex;
+    gap: 33px;
+}
+
+.footer nav ul li {
+    font-size: 26px;
+    line-height: 37px;
+    color: var(--text-gray);
+    transition: var(--transition-fast);
+}
+
+.footer nav ul li:hover {
+    color: var(--text-white);
+}
+
+.footer nav ul .stringdoble {
+    width: 278px;
+}
+
+.footer .socials {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 103px;
+}
+
+.footer .socials a {
+    transition: var(--transition-fast);
+}
+
+.footer .socials a:hover {
+    opacity: 0.7;
+}
+
+.footer .auth p {
+    color: #6C6E7A;
+    font-size: 26px;
+    margin-bottom: 89px;
+}
+
+.footer .study {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+}
+
+.footer .study a {
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+
+.footer .yaroslav {
+    margin-top: 40px;
+    padding-bottom: 30px;
+    width: 640px;
+    text-align: center;
+    line-height: 24px;
+}
+
+.footer .btn-more {
+    text-decoration: underline;
+}
