@@ -47,5 +47,5 @@
     /* Переменные для эффектов и состояний */
     --transition-fast: 0.1s ease-in-out;
     --transition-medium: 0.3s ease-in-out;
-    --transition-slow: 0.5s ease-in-out;
+    --transition-slow: 1s ease-in-out;
 }
